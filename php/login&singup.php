@@ -37,6 +37,7 @@ include("cone_db.php");
                 <div class="nav__button">
                     <button class="btn white-btn" id="loginBtn" onclick="login()">Iniciar Sesión</button>
                     <button class="btn" id="registerBtn" onclick="register()">Registrarse</button>
+                    <!-- <button class="btn" id="otherbtn" onclick="otherbtn()">New btn</button> -->
                 </div>
     
                 <div class="nav__menu-btn">

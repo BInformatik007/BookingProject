@@ -18,7 +18,7 @@ if (!empty($_POST["login_btn"])) {
             header("location:../html/index.html");
             exit();
         } else {
-            echo "Credenciales incorrectas.";
+            echo '<div style="color: red; font-weight: bold;">Credenciales incorrectas.</div>';
         }
         $stmt->close();
     }

@@ -41,7 +41,6 @@ function reg() {
         alert("Debe completar todos los datos para el registro.");
     } else {
         alert("Registro completado.");
-        // Aquí puedes agregar la lógica para enviar el formulario si es necesario
     }
 }
 
@@ -53,6 +52,5 @@ function log() {
         alert("Debe completar todos los datos para el inicio de sesión.");
     } else {
         alert("Inicio de sesión completado.");
-        // Aquí puedes agregar la lógica para iniciar sesión si es necesario
     }
 }
